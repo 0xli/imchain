@@ -1,0 +1,1 @@
+geth --exec "admin.addPeer('enode://fc26ad361a6e58fc0d67af96874862935b60208b846b126be198391b372b285f9621ecb97c06d1a6f81b119d5eb32d4a3da21849816f6ec7d2d88212c2cac697@192.168.0.111:30307')" attach  \\.\pipe\geth.ipc
