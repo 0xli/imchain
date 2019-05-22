@@ -1,0 +1,1 @@
+geth --mine --datadir node1 --syncmode full --rpc --rpcapi "personal,ens,net,eth,web3,miner"  --networkid 1515 --gasprice 1  --allow-insecure-unlock --unlock '0xaada53bec20cf15854e357998cae930c89d2a716' --password password.txt console
