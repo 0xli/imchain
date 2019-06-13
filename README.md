@@ -9,3 +9,5 @@ Run a private ethereum chain for developent, you are welcome to use it for your 
 
 Check the status of imchain
 http://gfax.f3322.org:3000
+
+admin.peers.map(function(i){console.log(i.enode)})
