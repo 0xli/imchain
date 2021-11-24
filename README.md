@@ -11,7 +11,10 @@ Check the status of imchain
 http://gfax.f3322.org:3000
 
 ## 1. bootnode
+you need a public ipv 4 address, any accessible ipv6 address works too
+```
 ./bootnode --nodekey=boot.key -verbosity 5 -addr 10.0.0.232:30301
+```
 ## 2. blockchain node of POA
 run and join us (kad.network) for ethereum development
 1. download geth:https://geth.ethereum.org/downloads/ 
