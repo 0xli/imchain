@@ -30,9 +30,9 @@ More options
 > check peers
 admin.peers.map(function(i){console.log(i.enode)})
 
-## whisper
+## 3. whisper
 https://github.com/allcomsh/Ethereum/blob/master/whisper.txt
 
 https://github.com/allcomsh/Ethereum/blob/master/whisper-mailserver.txt
-## swarm node
+## 4. swarm node
 https://github.com/allcomsh/Ethereum/blob/master/swarm.txt
