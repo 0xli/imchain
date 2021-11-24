@@ -1,5 +1,5 @@
-# imchain
-a ethereum based side chain for messaging app
+# The blockchain to power Instant Messaging Application
+An ethereum based side chain for messaging app
 
 Run a private ethereum chain for developent, you are welcome to use it for your development or join us by running any kind of nodes:
 1. bootnode
