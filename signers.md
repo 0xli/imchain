@@ -215,3 +215,25 @@ this signer not submit proposal
 }
 
 ```
+one more trasaction get it finally removed 
+```
+> clique.getSnapshot()
+{
+  hash: "0x1a1b077c40a58a1817094bf3f7ec337b3a2f37c9c22d75a6b6220bb8eff7e9f6",
+  number: 1547817,
+  recents: {
+    1547815: "0xaada53bec20cf15854e357998cae930c89d2a716",
+    1547816: "0xff9d40c2d790b1737729cd3a4b58c08aead2e7e1",
+    1547817: "0xcbb6c355c9ab1ca68aaade61727293cbbd4e6a61"
+  },
+  signers: {
+    0x2ce16000864839c035e9343b580d277b88836830: {},
+    0xaada53bec20cf15854e357998cae930c89d2a716: {},
+    0xc1c9e49cd2d7cb1dd204739ecd6ab81f1ff7f281: {},
+    0xcbb6c355c9ab1ca68aaade61727293cbbd4e6a61: {},
+    0xff9d40c2d790b1737729cd3a4b58c08aead2e7e1: {}
+  },
+  tally: {},
+  votes: []
+}
+```
