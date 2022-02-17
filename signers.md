@@ -126,3 +126,47 @@ get one more proposal for remove
 }
 
 ```
+need one more to remove
+```
+> clique.getSnapshot()
+{
+  hash: "0x20b0dc93730885d9a881f6515282fc84548db8e15c2f230751f4392fb0aa1e33",
+  number: 1547815,
+  recents: {
+    1547812: "0x2ce16000864839c035e9343b580d277b88836830",
+    1547813: "0xcbb6c355c9ab1ca68aaade61727293cbbd4e6a61",
+    1547814: "0xc1c9e49cd2d7cb1dd204739ecd6ab81f1ff7f281",
+    1547815: "0xaada53bec20cf15854e357998cae930c89d2a716"
+  },
+  signers: {
+    0x2ce16000864839c035e9343b580d277b88836830: {},
+    0xaada53bec20cf15854e357998cae930c89d2a716: {},
+    0xc1c9e49cd2d7cb1dd204739ecd6ab81f1ff7f281: {},
+    0xcbb6c355c9ab1ca68aaade61727293cbbd4e6a61: {},
+    0xe64b3a41601f3731b223be1d1235559c823a27fb: {},
+    0xff9d40c2d790b1737729cd3a4b58c08aead2e7e1: {}
+  },
+  tally: {
+    0xe64b3a41601f3731b223be1d1235559c823a27fb: {
+      authorize: false,
+      votes: 3
+    }
+  },
+  votes: [{
+      address: "0xe64b3a41601f3731b223be1d1235559c823a27fb",
+      authorize: false,
+      block: 1547809,
+      signer: "0x2ce16000864839c035e9343b580d277b88836830"
+  }, {
+      address: "0xe64b3a41601f3731b223be1d1235559c823a27fb",
+      authorize: false,
+      block: 1547814,
+      signer: "0xc1c9e49cd2d7cb1dd204739ecd6ab81f1ff7f281"
+  }, {
+      address: "0xe64b3a41601f3731b223be1d1235559c823a27fb",
+      authorize: false,
+      block: 1547815,
+      signer: "0xaada53bec20cf15854e357998cae930c89d2a716"
+  }]
+}
+```
