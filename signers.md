@@ -237,3 +237,13 @@ one more trasaction get it finally removed
   votes: []
 }
 ```
+```
+> INFO [02-17|20:41:45.412] message loop                             peer=fe67350008532507 err=EOF
+INFO [02-17|20:41:59.844] Commit new mining work                   number=1547817 sealhash=dfb85a…1d7e02 uncles=1 txs=0  gas=0       fees=0          elapsed=0s
+INFO [02-17|20:41:59.844] Sealing paused, waiting for transactions
+INFO [02-17|20:41:59.847] Imported new chain segment               blocks=1 txs=1  mgas=0.021 elapsed=1.998ms  mgasps=10.506  number=1547817 hash=1a1b07…f7e9f6 cache=175.90kB
+INFO [02-17|20:41:59.871] Signed recently, must wait for others
+INFO [02-17|20:41:59.871] Commit new mining work                   number=1547817 sealhash=923f82…e7a38f uncles=1 txs=1  gas=21000   fees=0.00042    elapsed=26.981ms
+INFO [02-17|20:41:59.912] Commit new mining work                   number=1547818 sealhash=0ed476…0564d8 uncles=1 txs=0  gas=0       fees=0          elapsed=999.6µs
+INFO [02-17|20:41:59.912] Sealing paused, waiting for transactions
+```
