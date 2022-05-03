@@ -34,8 +34,24 @@ More options
 admin.peers.map(function(i){console.log(i.enode)})
 
 ## 3. whisper
-https://github.com/allcomsh/Ethereum/blob/master/whisper.txt
+### 3.1 web3.shh.subscribe need wss provider
+- run geth with wss
+  - --ws --wsport 8546 --wsapi shh,personal,ens,net,eth,web3,db,txpool --wsorigins * 
+- nginx proxy for websocket
+  - https://www.xncoding.com/2018/03/12/fullstack/nginx-websocket.html 
+### 3.2 web3.shh 
+-   https://web3js.readthedocs.io/en/v1.5.2/web3-shh.html#notification-returns
+```
+subscribe broadcast message
+      FaxTokenImAPI.web3.shh.setProvider(new Web3.providers.WebsocketProvider('wss://geth.beagle.chat'));
+      FaxTokenImAPI.web3.shh.subscribe('messages',{ symKeyID :symKeyID,topics:['0x12345678','0xffffffff']},callback);
+subscribe to peer to peer message
+      FaxTokenImAPI.web3.shh.setProvider(new Web3.providers.WebsocketProvider('wss://geth.beagle.chat'));
+      FaxTokenImAPI.web3.shh.subscribe('messages',{ privateKeyID: shhKeyId},callback);
 
-https://github.com/allcomsh/Ethereum/blob/master/whisper-mailserver.txt
+```
+### 3. whisper references  
+- https://github.com/allcomsh/Ethereum/blob/master/whisper.txt
+- https://github.com/allcomsh/Ethereum/blob/master/whisper-mailserver.txt
 ## 4. swarm node
 https://github.com/allcomsh/Ethereum/blob/master/swarm.txt
